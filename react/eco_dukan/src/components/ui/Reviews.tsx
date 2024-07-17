@@ -2,7 +2,7 @@
 
 import { HTMLAttributes, useEffect, useRef, useState } from 'react'
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
-import { useInView } from 'framer-motion'
+import {useInView} from '@'
 import { cn } from '@/lib/utils'
 import Phone from '../Phone'
 

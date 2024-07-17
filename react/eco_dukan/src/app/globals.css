@@ -59,3 +59,42 @@
       @apply bg-background text-foreground;
     }
   }
+
+  /* components/HowItWorks.module.css */
+.howItWorksContainer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e6f4e6;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.stepsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.step {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+}
+
+.step h3 {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.step img {
+  max-width: 100%;
+  height: auto;
+}

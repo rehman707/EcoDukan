@@ -46,7 +46,7 @@ async function Navbar() {
                     size: 'sm',
                     className: 'hidden sm:flex items-center gap-1',
                   })}>
-                  HOME
+                  Contact Us
                   <ArrowRight className='ml-1.5 h-5 w-5' />
                 </Link>
               </>
@@ -58,7 +58,7 @@ async function Navbar() {
                     size: 'sm',
                     variant: 'ghost',
                   })}>
-                  Sign up
+                  Home
                 </Link>
 
                 <Link
@@ -67,7 +67,7 @@ async function Navbar() {
                     size: 'sm',
                     variant: 'ghost',
                   })}>
-                  Login
+                  About Us
                 </Link>
 
                 <div className='h-8 w-px bg-zinc-200 hidden sm:block' />
@@ -78,7 +78,7 @@ async function Navbar() {
                     size: 'sm',
                     className: 'hidden sm:flex items-center gap-1',
                   })}>
-                  Home
+                  Contact Us
                   <ArrowRight className='ml-1.5 h-5 w-5' />
                 </Link>
               </>
