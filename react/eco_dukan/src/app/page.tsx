@@ -151,27 +151,7 @@ export default function Home() {
               </div>
               </div>
       </MaxWidthWrapper>
-      <MaxWidthWrapper className='pb-24 pt-10 lg:grid lg:grid-cols-3 sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pt-24 xl:pt-32 lg:pb-52'>
-        <div className ='col-span-2 px-6 lg:px-0 lg:pt-4'>
-        <p className='mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap'>
-              Welcome to EcoDukan, where sustainability meets affordability. Discover our wide range,{' '}
-                <span className='font-semibold'>recyclable and recycled products,</span> of all at unbeatable prices. Join us in making the world a greener place!
-                </p>
-                <div className='col-span-full lg:col-span-1 w-full flex justify-end px-8 sm:px-16 md:px-0 mt-32 lg:mx-0 lg:mt-20 h-fit'>
-            <div className='relative md:max-w-xl'>
-              <img
-                src='/your-image.png'
-                className='absolute w-40 lg:w-52 left-56 -top-20 select-none hidden sm:block lg:hidden xl:block'
-              />
-              
-              <Phone className='w-64' imgSrc='' />
-            </div>
-          </div>
-                
-             
-
-        </div>
-      </MaxWidthWrapper>
+     
       </section>
       </div>
   );
